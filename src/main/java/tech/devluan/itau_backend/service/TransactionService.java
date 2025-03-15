@@ -30,6 +30,7 @@ public class TransactionService {
 
     public void deleteAllTransactions() {
         transactions.clear();
+        printTransactions();
     }
 
     public void validateTransaction(Transaction transaction) {
